@@ -6,8 +6,7 @@ void prisma.$connect().then(
   () => {
     console.log("Database connected successfully");
   },
-  (error) => {
+  (error:unknown) => {
     console.error("Database connected unsuccessfully", error);
   },
 );
-
