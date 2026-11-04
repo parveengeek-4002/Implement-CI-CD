@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Vite / production build
+dist/
+dist-ssr/
+*.tsbuildinfo
+.vite/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local overrides (Vite)
+*.local
+
+# Test & coverage
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
