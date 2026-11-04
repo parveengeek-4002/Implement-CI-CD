@@ -11,4 +11,3 @@ void prisma.$connect().then(
   },
 );
 
-// gs 
