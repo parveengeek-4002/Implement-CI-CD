@@ -10,3 +10,5 @@ void prisma.$connect().then(
     console.error("Database connected unsuccessfully", error);
   },
 );
+
+// gs 
